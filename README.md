@@ -1,12 +1,16 @@
-# DiceEval
+# Things Are About To Get Dicey
+
+## Considerations
 
 Based on the rules given in the document, we are only concerned about the highest score, so evaluating the following:
-   Ones through Eights
-   ThreeOfAKind & FourOfAKind 
-   
-   **These will always be less than or equal to Chance**
 
-   **LargeStraight qualifies as NoneOfAKind, which scores the same. We will only check for the latter, as it is a simpler evaluation**
+Ones through Eights
+
+ThreeOfAKind & FourOfAKind 
+   
+**These will always be less than or equal to Chance**
+
+**LargeStraight qualifies as NoneOfAKind, which scores the same. We will only check for the latter, as it is a simpler evaluation**
 
 
 So we need check only for the following:
@@ -15,7 +19,7 @@ So we need check only for the following:
 
 **NoneOfAKind** – Return 40 if there are no duplicate dice
 
-Return the following only if they are greater than Chance (which has a max of 40):
+Return the following only if they are greater than Chance (which has a max of possible score of 40):
 
 **FullHouse** – Return 25 if there are two duplicate dice of one value and three duplicate dice of a different value
 
@@ -23,7 +27,11 @@ Return the following only if they are greater than Chance (which has a max of 40
 
 **Chance** – Scores the sum of all dice
 
+## Development
+
 Unit Tests were devised for the project, and then expanded to reach full coverage once code was complete.
+
+## Assumptions & Alternatives
 
 One small assumption is that the order of the dice is unimportant, so 3,2,4,1,4 still qualifies as a SmallStraight despite being out of order.
 
