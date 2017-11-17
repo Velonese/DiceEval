@@ -10,7 +10,7 @@ ThreeOfAKind & FourOfAKind
    
 **These will always be less than or equal to Chance**
 
-**LargeStraight qualifies as NoneOfAKind, which scores the same. We will only check for the latter, as it is a simpler evaluation**
+**LargeStraight** qualifies as **NoneOfAKind**, which scores the same. We will only check for the latter, as it is a simpler evaluation
 
 
 So we need check only for the following:
