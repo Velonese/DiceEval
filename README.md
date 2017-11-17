@@ -4,9 +4,9 @@
 
 Based on the rules given in the document, we are only concerned about the highest score, so evaluating the following:
 
-Ones through Eights
+**Ones** through **Eights**
 
-ThreeOfAKind & FourOfAKind 
+**ThreeOfAKind** & **FourOfAKind **
    
 **These will always be less than or equal to Chance**
 
