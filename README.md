@@ -23,7 +23,7 @@ Return the following only if they are greater than Chance (which has a max of 40
 
 **Chance** – Scores the sum of all dice
 
-Unit Tests were devised for the project, and then filled out once code was complete.
+Unit Tests were devised for the project, and then expanded to reach full coverage once code was complete.
 
 One small assumption is that the order of the dice is unimportant, so 3,2,4,1,4 still qualifies as a SmallStraight despite being out of order.
 
@@ -52,3 +52,6 @@ A larger assumption is that we are writing this code without considering that it
         }
     }
 ```
+
+
+Thanks for the coding project, it was fun!
